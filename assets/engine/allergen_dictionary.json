@@ -1,0 +1,449 @@
+{
+  "version": 1,
+  "allergens": {
+    "amendoim": {
+      "name_pt": "Amendoim",
+      "terms": [
+        "amendoim",
+        "paçoca",
+        "pé de moleque",
+        "arachis",
+        "arachis hypogaea"
+      ],
+      "ambiguous": [],
+      "exclusions": []
+    },
+    "leite_aplv": {
+      "name_pt": "Leite (APLV)",
+      "terms": [
+        "leite",
+        "leite em pó",
+        "soro de leite",
+        "whey",
+        "caseína",
+        "caseinato",
+        "caseinato de sódio",
+        "caseinato de cálcio",
+        "lactoalbumina",
+        "lactoglobulina",
+        "lactoserum",
+        "lactose",
+        "proteína do leite",
+        "proteína láctea",
+        "manteiga",
+        "ghee",
+        "creme de leite",
+        "nata",
+        "queijo",
+        "requeijão",
+        "muçarela",
+        "mussarela",
+        "parmesão",
+        "ricota",
+        "cheddar",
+        "gorgonzola",
+        "provolone",
+        "iogurte",
+        "coalhada",
+        "doce de leite",
+        "leite condensado",
+        "composto lácteo",
+        "bebida láctea",
+        "gordura láctea",
+        "fermento lácteo",
+        "lácteo",
+        "láctea"
+      ],
+      "ambiguous": [
+        "aroma de manteiga",
+        "aroma natural de manteiga",
+        "aroma idêntico ao natural de manteiga",
+        "aroma artificial de manteiga",
+        "aroma de leite",
+        "aroma natural de leite",
+        "aroma de queijo",
+        "aroma natural de queijo",
+        "aroma de creme",
+        "sabor manteiga",
+        "sabor queijo",
+        "chantilly"
+      ],
+      "exclusions": [
+        "manteiga de cacau",
+        "manteiga de karité",
+        "manteiga de amendoim",
+        "manteiga de castanha",
+        "manteiga de caju",
+        "manteiga de amêndoa",
+        "manteiga de coco",
+        "manteiga vegetal",
+        "leite de coco",
+        "leite de amêndoa",
+        "leite de soja",
+        "leite de arroz",
+        "leite de aveia",
+        "leite de castanha",
+        "leite de caju",
+        "leite vegetal",
+        "creme de coco",
+        "queijo vegano",
+        "queijo vegetal"
+      ]
+    },
+    "lactose": {
+      "name_pt": "Lactose",
+      "terms": [
+        "lactose",
+        "leite",
+        "leite em pó",
+        "soro de leite",
+        "whey",
+        "lactoserum",
+        "manteiga",
+        "creme de leite",
+        "nata",
+        "queijo",
+        "requeijão",
+        "muçarela",
+        "mussarela",
+        "ricota",
+        "iogurte",
+        "coalhada",
+        "doce de leite",
+        "leite condensado",
+        "composto lácteo",
+        "bebida láctea",
+        "lácteo",
+        "láctea"
+      ],
+      "ambiguous": [
+        "aroma de manteiga",
+        "aroma natural de manteiga",
+        "aroma idêntico ao natural de manteiga",
+        "aroma artificial de manteiga",
+        "aroma de leite",
+        "aroma natural de leite",
+        "aroma de queijo",
+        "aroma natural de queijo",
+        "aroma de creme",
+        "sabor manteiga",
+        "sabor queijo",
+        "chantilly"
+      ],
+      "exclusions": [
+        "manteiga de cacau",
+        "manteiga de karité",
+        "manteiga de amendoim",
+        "manteiga de castanha",
+        "manteiga de caju",
+        "manteiga de amêndoa",
+        "manteiga de coco",
+        "manteiga vegetal",
+        "leite de coco",
+        "leite de amêndoa",
+        "leite de soja",
+        "leite de arroz",
+        "leite de aveia",
+        "leite de castanha",
+        "leite de caju",
+        "leite vegetal",
+        "creme de coco",
+        "queijo vegano",
+        "queijo vegetal"
+      ]
+    },
+    "gluten": {
+      "name_pt": "Glúten",
+      "terms": [
+        "glúten",
+        "trigo",
+        "farinha de trigo",
+        "gérmen de trigo",
+        "proteína de trigo",
+        "centeio",
+        "cevada",
+        "aveia",
+        "malte",
+        "extrato de malte",
+        "xarope de malte",
+        "semolina",
+        "sêmola",
+        "espelta",
+        "kamut",
+        "triticale",
+        "farinha de rosca",
+        "seitan",
+        "bulgur",
+        "cuscuz marroquino"
+      ],
+      "ambiguous": [
+        "proteína vegetal hidrolisada",
+        "proteína hidrolisada"
+      ],
+      "exclusions": [
+        "trigo sarraceno",
+        "trigo mourisco"
+      ]
+    },
+    "trigo": {
+      "name_pt": "Trigo",
+      "terms": [
+        "trigo",
+        "farinha de trigo",
+        "gérmen de trigo",
+        "proteína de trigo",
+        "semolina",
+        "sêmola",
+        "espelta",
+        "kamut",
+        "triticale",
+        "farinha de rosca",
+        "seitan",
+        "bulgur",
+        "cuscuz marroquino"
+      ],
+      "ambiguous": [
+        "glúten",
+        "proteína vegetal hidrolisada",
+        "proteína hidrolisada"
+      ],
+      "exclusions": [
+        "trigo sarraceno",
+        "trigo mourisco"
+      ]
+    },
+    "ovo": {
+      "name_pt": "Ovo",
+      "terms": [
+        "ovo",
+        "ovo em pó",
+        "ovo integral",
+        "clara de ovo",
+        "gema",
+        "clara",
+        "albumina",
+        "ovoalbumina",
+        "ovomucoide",
+        "ovomucina",
+        "ovotransferrina",
+        "lisozima",
+        "lecitina de ovo",
+        "merengue",
+        "maionese"
+      ],
+      "ambiguous": [
+        "lecitina"
+      ],
+      "exclusions": [
+        "lecitina de soja",
+        "lecitina de girassol",
+        "maionese vegana"
+      ]
+    },
+    "soja": {
+      "name_pt": "Soja",
+      "terms": [
+        "soja",
+        "lecitina de soja",
+        "proteína de soja",
+        "proteína texturizada de soja",
+        "molho de soja",
+        "shoyu",
+        "tofu",
+        "missô",
+        "edamame",
+        "tempeh"
+      ],
+      "ambiguous": [
+        "lecitina",
+        "proteína vegetal hidrolisada",
+        "proteína vegetal texturizada"
+      ],
+      "exclusions": [
+        "lecitina de girassol",
+        "lecitina de ovo"
+      ]
+    },
+    "peixe": {
+      "name_pt": "Peixe",
+      "terms": [
+        "peixe",
+        "óleo de peixe",
+        "gelatina de peixe",
+        "colágeno de peixe",
+        "molho de peixe",
+        "atum",
+        "sardinha",
+        "bacalhau",
+        "salmão",
+        "anchova",
+        "aliche",
+        "merluza",
+        "tilápia",
+        "pescada",
+        "truta",
+        "surimi"
+      ],
+      "ambiguous": [
+        "ômega 3"
+      ],
+      "exclusions": []
+    },
+    "crustaceos": {
+      "name_pt": "Crustáceos",
+      "terms": [
+        "crustáceo",
+        "camarão",
+        "camarões",
+        "lagosta",
+        "lagostim",
+        "caranguejo",
+        "siri",
+        "krill"
+      ],
+      "ambiguous": [
+        "frutos do mar"
+      ],
+      "exclusions": []
+    },
+    "castanhas": {
+      "name_pt": "Castanhas e nozes",
+      "terms": [
+        "castanha",
+        "castanha de caju",
+        "castanha do pará",
+        "castanha do brasil",
+        "amêndoa",
+        "avelã",
+        "noz",
+        "noz pecã",
+        "pecan",
+        "macadâmia",
+        "pistache",
+        "pinoli",
+        "gianduia",
+        "marzipã"
+      ],
+      "ambiguous": [
+        "praliné",
+        "nougat",
+        "torrone"
+      ],
+      "exclusions": [
+        "noz moscada",
+        "castanha d'água",
+        "castanha de água"
+      ]
+    },
+    "gergelim": {
+      "name_pt": "Gergelim",
+      "terms": [
+        "gergelim",
+        "sésamo",
+        "tahine",
+        "tahini",
+        "gomásio"
+      ],
+      "ambiguous": [],
+      "exclusions": []
+    },
+    "sulfitos": {
+      "name_pt": "Sulfitos",
+      "terms": [
+        "sulfito",
+        "metabissulfito",
+        "bissulfito",
+        "dióxido de enxofre",
+        "anidrido sulfuroso",
+        "ins 220", "ins 221", "ins 222", "ins 223", "ins 224", "ins 225", "ins 226", "ins 227", "ins 228",
+        "e220", "e221", "e222", "e223", "e224", "e225", "e226", "e227", "e228"
+      ],
+      "ambiguous": [],
+      "exclusions": []
+    }
+  },
+  "declared_implies": {
+    "trigo": ["gluten"],
+    "leite_aplv": ["lactose"],
+    "lactose": ["leite_aplv"]
+  },
+  "trace_phrases": [
+    "pode conter",
+    "pode conter traços de",
+    "pode conter traços",
+    "contém traços de",
+    "contém traços",
+    "traços de",
+    "pode haver traços de",
+    "pode haver contaminação cruzada com",
+    "contaminação cruzada com",
+    "produzido em equipamento que processa",
+    "produzido em equipamento que também processa",
+    "fabricado em equipamento que processa",
+    "fabricado em equipamento que também processa",
+    "produzido em linha que também processa",
+    "produzido em ambiente que manipula",
+    "fabricado em ambiente que manipula",
+    "processado em equipamento compartilhado com"
+  ],
+  "clause_stop_words": [
+    "contém",
+    "alérgicos",
+    "alérgico",
+    "ingredientes",
+    "ingrediente",
+    "não",
+    "informação",
+    "informações",
+    "conservar",
+    "consumir",
+    "validade",
+    "lote",
+    "modo",
+    "porção"
+  ],
+  "negation_prefixes": [
+    "não contém",
+    "sem",
+    "isento de",
+    "isenta de",
+    "livre de",
+    "zero"
+  ],
+  "negation_suffixes": [
+    "free"
+  ],
+  "lactose_free_claims": [
+    "zero lactose",
+    "sem lactose",
+    "isento de lactose",
+    "isenta de lactose",
+    "livre de lactose",
+    "não contém lactose",
+    "lactose free",
+    "0% lactose"
+  ],
+  "known_words": [
+    "a", "o", "e", "as", "os", "ao", "em", "no", "na", "com", "ou", "por",
+    "açúcar", "sal", "água", "farinha", "óleo", "amido", "milho", "arroz", "cacau", "coco",
+    "glicose", "xarope", "fermento", "aroma", "corante", "emulsificante", "estabilizante",
+    "acidulante", "conservante", "espessante", "vegetal", "gordura", "carne",
+    "sulfato", "ferroso", "ferro", "ácido", "fólico", "vitamina",
+    "caseira", "caseiro", "castanho", "castanhos",
+    "maltodextrina", "maltose", "maltitol", "glutamato", "lactato", "lactilato", "sorbato"
+  ],
+  "off_tags": {
+    "en:milk": ["leite_aplv"],
+    "en:lactose": ["lactose"],
+    "en:gluten": ["gluten"],
+    "en:wheat": ["trigo"],
+    "en:peanuts": ["amendoim"],
+    "en:eggs": ["ovo"],
+    "en:soybeans": ["soja"],
+    "en:fish": ["peixe"],
+    "en:crustaceans": ["crustaceos"],
+    "en:nuts": ["castanhas"],
+    "en:sesame-seeds": ["gergelim"],
+    "en:sulphur-dioxide-and-sulphites": ["sulfitos"]
+  }
+}

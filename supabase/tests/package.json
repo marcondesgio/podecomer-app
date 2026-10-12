@@ -1,0 +1,11 @@
+{
+  "name": "pode-comer-db-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node rls_test.mjs && node --test revenuecat_test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0"
+  }
+}

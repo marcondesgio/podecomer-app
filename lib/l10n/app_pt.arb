@@ -1,0 +1,443 @@
+{
+  "@@locale": "pt",
+  "appTitle": "Pode Comer?",
+  "authTitle": "Entrar",
+  "onboardingTitle": "Boas-vindas",
+  "scannerTitle": "Verificar produto",
+  "resultTitle": "Resultado",
+  "productSubmissionTitle": "Cadastrar produto",
+  "profileTitle": "Meu Perfil",
+  "groupTitle": "Meu Grupo",
+  "paywallTitle": "Plano Família",
+  "statusSafe": "SEGURO",
+  "statusCaution": "ATENÇÃO",
+  "statusDoNotConsume": "NÃO CONSUMIR",
+  "statusInconclusive": "INCONCLUSIVO",
+  "labelDisclaimer": "O app é uma ferramenta de apoio. Confira sempre o rótulo da embalagem.",
+  "retry": "Tentar de novo",
+  "lookupFailedMessage": "Não conseguimos consultar este produto agora. Verifique sua conexão e tente de novo.",
+  "productNotFoundMessage": "Ainda não conhecemos este produto.",
+  "unknownProductName": "Produto sem nome",
+  "unverifiedBadge": "Não verificado",
+  "originOwnVerified": "base Pode Comer?",
+  "originOpenFoodFacts": "Open Food Facts",
+  "originOwnPending": "cadastro da comunidade",
+  "dataSource": "Fonte: {source}",
+  "@dataSource": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "dataUpdatedAt": "Atualizado em {date} · fonte: {source}",
+  "@dataUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancelar",
+  "save": "Salvar",
+  "delete": "Excluir",
+  "edit": "Editar",
+  "continueLabel": "Continuar",
+  "genericError": "Algo deu errado. Tente de novo.",
+  "networkError": "Sem conexão. Verifique sua internet e tente de novo.",
+  "loading": "Carregando…",
+  "tagline": "Um scan. A família toda protegida.",
+  "supportDisclaimer": "O app é um apoio. Confira sempre o rótulo.",
+  "signOut": "Sair",
+  "allergenPeanut": "Amendoim",
+  "allergenMilk": "Leite (APLV)",
+  "allergenLactose": "Lactose",
+  "allergenGluten": "Glúten",
+  "allergenWheat": "Trigo",
+  "allergenEgg": "Ovo",
+  "allergenSoy": "Soja",
+  "allergenFish": "Peixe",
+  "allergenCrustaceans": "Crustáceos",
+  "allergenTreeNuts": "Castanhas e nozes",
+  "allergenSesame": "Gergelim",
+  "allergenSulfites": "Sulfitos",
+  "severityMild": "Leve",
+  "severitySevere": "Grave",
+  "severityQuestion": "Qual a gravidade?",
+  "noAllergies": "Nenhuma alergia cadastrada",
+  "sexMale": "Masculino",
+  "sexFemale": "Feminino",
+  "sexPreferNotToSay": "Prefiro não informar",
+  "ageYears": "{age, plural, =0{menos de 1 ano} =1{1 ano} other{{age} anos}}",
+  "@ageYears": {
+    "placeholders": {
+      "age": {
+        "type": "int"
+      }
+    }
+  },
+  "start": "Começar",
+  "haveAccountSignIn": "Já tem conta? Entrar",
+  "noAccountSignUp": "Não tem conta? Criar conta",
+  "signUpTitle": "Crie sua conta",
+  "signInTitle": "Entrar",
+  "continueWithGoogle": "Continuar com Google",
+  "continueWithApple": "Continuar com Apple",
+  "orWithEmail": "ou com e-mail",
+  "nameLabel": "Nome",
+  "emailLabel": "E-mail",
+  "passwordLabel": "Senha",
+  "newPasswordLabel": "Nova senha",
+  "confirmPasswordLabel": "Repita a senha",
+  "createAccount": "Criar conta",
+  "signInAction": "Entrar",
+  "forgotPassword": "Esqueci minha senha",
+  "nameRequired": "Informe seu nome.",
+  "emailInvalid": "Informe um e-mail válido.",
+  "passwordTooShort": "Use pelo menos 8 caracteres.",
+  "passwordsDontMatch": "As senhas não são iguais.",
+  "authInvalidCredentials": "E-mail ou senha incorretos.",
+  "authWeakPassword": "Senha fraca. Use letras e números, com pelo menos 8 caracteres.",
+  "authRateLimited": "Muitas tentativas. Aguarde um pouco e tente de novo.",
+  "authNotConfigured": "O app ainda não está conectado ao servidor.",
+  "verifyEmailTitle": "Confira seu e-mail",
+  "verifyEmailBody": "Enviamos um link para seu e-mail",
+  "verifyEmailHint": "Toque no link neste celular para entrar direto no app.",
+  "resend": "Reenviar",
+  "resent": "Link reenviado.",
+  "resendIn": "Reenviar em {seconds} s",
+  "@resendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "alreadyConfirmed": "Já confirmei",
+  "useAnotherEmail": "Usar outro e-mail",
+  "forgotPasswordTitle": "Recuperar senha",
+  "forgotPasswordBody": "Informe seu e-mail. Enviaremos um link para criar uma nova senha.",
+  "sendLink": "Enviar link",
+  "resetLinkSent": "Se houver uma conta com esse e-mail, você vai receber o link em instantes.",
+  "resetPasswordTitle": "Nova senha",
+  "savePassword": "Salvar senha",
+  "profileUnavailable": "Não conseguimos carregar seu perfil.",
+  "onboardingStep1": "Passo 1 de 2",
+  "onboardingStep2": "Passo 2 de 2 · opcional",
+  "myAllergiesTitle": "Minhas alergias",
+  "myAllergiesHint": "Toque em tudo o que você evita.",
+  "healthConsent": "Autorizo o uso dos meus dados de saúde (alergias) para personalizar os resultados.",
+  "howWeUseData": "Como usamos seus dados",
+  "howWeUseDataBody": "Suas alergias e as do seu grupo servem só para calcular o resultado de cada produto. Ficam protegidas na sua conta, não são vendidas nem usadas em anúncios, e você pode apagá-las a qualquer momento excluindo a conta.",
+  "consentRequired": "Marque a autorização para continuar",
+  "whoElseTitle": "Quem mais você protege?",
+  "whoElseBody": "Filhos, parceiro, avós. Cada um com as suas alergias.",
+  "addMember": "Adicionar membro",
+  "skipForNow": "Pular por enquanto",
+  "helloName": "Olá, {name}",
+  "@helloName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeQuestion": "O que vamos conferir hoje?",
+  "myGroupLabel": "Meu grupo",
+  "checkProduct": "VERIFICAR PRODUTO",
+  "navHome": "Início",
+  "navScan": "Escanear",
+  "youSuffix": "{name} (você)",
+  "@youSuffix": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "birthDateOptional": "Data de nascimento · opcional",
+  "birthDateLabel": "Data de nascimento",
+  "birthDateHelper": "Usamos para mostrar a idade no grupo.",
+  "addAction": "Adicionar",
+  "currentPlan": "Plano atual",
+  "planFree": "Gratuito",
+  "planFamily": "Família",
+  "planFreeSummary": "Você + 1 membro",
+  "planFamilySummary": "Membros ilimitados",
+  "knowFamilyPlan": "Conhecer o plano Família",
+  "saveChanges": "Salvar alterações",
+  "saved": "Alterações salvas.",
+  "changePhoto": "Alterar foto",
+  "takePhoto": "Tirar foto",
+  "chooseFromGallery": "Escolher da galeria",
+  "photoOptional": "Foto opcional",
+  "deleteAccount": "Excluir conta",
+  "deleteAccountTitle": "Excluir sua conta?",
+  "deleteAccountBody": "Seu perfil, seu grupo, as alergias de todos, o histórico e as fotos serão apagados. Não dá para desfazer.",
+  "deleteAccountConfirm": "Excluir conta",
+  "deleteAccountFailed": "Não conseguimos excluir a conta. Tente de novo.",
+  "peopleCount": "{count, plural, =1{1 pessoa} other{{count} pessoas}}",
+  "@peopleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "accountOwner": "Titular da conta",
+  "freePlanBanner": "Plano Gratuito: você + 1 membro.",
+  "seeFamilyPlan": "Ver plano Família",
+  "newMemberTitle": "Novo membro",
+  "editMemberTitle": "Editar membro",
+  "sexLabel": "Sexo",
+  "memberAllergies": "Alergias de {name}",
+  "@memberAllergies": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "memberAllergiesDefault": "Alergias",
+  "deleteMemberTitle": "Excluir {name} do grupo?",
+  "@deleteMemberTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteMemberBody": "As alergias e o histórico dessa pessoa serão apagados. Não dá para desfazer.",
+  "removeFromGroup": "Excluir do grupo",
+  "paywallHeadline": "Proteja toda a família",
+  "paywallFreeIncludes": "O plano Gratuito inclui você e 1 membro.",
+  "paywallBenefit1": "Membros ilimitados, cada um com suas alergias",
+  "paywallBenefit2": "Um escaneamento, resultado para todos",
+  "paywallBenefit3": "Alternativas seguras para o grupo inteiro",
+  "planAnnual": "Anual",
+  "planMonthly": "Mensal",
+  "planMonthlyHint": "pague mês a mês",
+  "restorePurchase": "Restaurar compra",
+  "scanHint": "Aponte para o código de barras",
+  "forWhom": "Para quem?",
+  "torchOn": "Ligar lanterna",
+  "torchOff": "Desligar lanterna",
+  "cameraUnavailable": "Não conseguimos usar a câmera. Permita o acesso nas configurações do celular.",
+  "closeScanner": "Fechar",
+  "keepOnePerson": "Selecione pelo menos uma pessoa.",
+  "verdictFor": "para {names}",
+  "@verdictFor": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "namesAnd": "{first} e {last}",
+  "@namesAnd": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "tapPersonHint": "Toque em uma pessoa para ver o motivo",
+  "whyTitle": "Por quê?",
+  "reasonContainsText": "{allergen}: contém “{excerpt}”",
+  "@reasonContainsText": {
+    "placeholders": {
+      "allergen": {
+        "type": "String"
+      },
+      "excerpt": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonContainsDeclared": "{allergen}: declarado como presente pelo fabricante",
+  "@reasonContainsDeclared": {
+    "placeholders": {
+      "allergen": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonTracesText": "{allergen}: “{excerpt}”",
+  "@reasonTracesText": {
+    "placeholders": {
+      "allergen": {
+        "type": "String"
+      },
+      "excerpt": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonTracesDeclared": "{allergen}: pode conter, segundo o fabricante",
+  "@reasonTracesDeclared": {
+    "placeholders": {
+      "allergen": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonAmbiguous": "{allergen}: ingrediente que pode conter, “{excerpt}”",
+  "@reasonAmbiguous": {
+    "placeholders": {
+      "allergen": {
+        "type": "String"
+      },
+      "excerpt": {
+        "type": "String"
+      }
+    }
+  },
+  "reasonSevereNote": "alergia grave: traços também contam",
+  "reasonGlutenNote": "traços de trigo, centeio, cevada ou aveia contam como glúten",
+  "reasonApproximate": "leitura aproximada do rótulo",
+  "reasonNoIngredients": "Sem lista de ingredientes confiável",
+  "reasonNotFound": "Produto não encontrado",
+  "reasonSafe": "Nenhum alergênico de {name} encontrado",
+  "@reasonSafe": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reportWrong": "Isso está errado?",
+  "reportTitle": "O que está errado?",
+  "reportHint": "Ex.: a receita mudou, agora contém leite",
+  "reportSend": "Enviar",
+  "reportThanks": "Obrigado! Vamos revisar.",
+  "reportRequired": "Conte rapidamente o que está errado.",
+  "nextProduct": "Próximo produto",
+  "registerProduct": "Cadastrar produto",
+  "alternativesTitle": "Alternativas seguras para {names}",
+  "@alternativesTitle": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "alternativesNone": "Não encontramos alternativas seguras nesta categoria. Confira os rótulos no mercado.",
+  "alternativesFailed": "Não conseguimos buscar alternativas agora.",
+  "alternativesMore": "Veja até 5 alternativas no plano Família",
+  "alternativesSearching": "Procurando alternativas…",
+  "submissionStepFront": "Passo 1 de 2 · Frente da embalagem",
+  "submissionStepIngredients": "Passo 2 de 2 · Lista de ingredientes",
+  "submissionFrontHint": "Enquadre a frente do produto, com nome e marca.",
+  "submissionIngredientsHint": "Enquadre toda a lista de ingredientes e o quadro de alérgicos.",
+  "holdSteady": "Segure firme…",
+  "autoCaptureHint": "A foto é tirada sozinha quando a imagem fica nítida.",
+  "takePhotoNow": "Tirar foto",
+  "readingIngredients": "Lendo os ingredientes…",
+  "reviewTitle": "Confira os ingredientes",
+  "reviewHint": "Corrija o que a leitura errou. Termos alergênicos aparecem destacados.",
+  "ocrEmpty": "Não conseguimos ler o texto. Digite os ingredientes ou refaça a foto.",
+  "ingredientsLabel": "Ingredientes",
+  "ingredientsRequired": "Informe a lista de ingredientes.",
+  "productNameOptional": "Nome do produto · opcional",
+  "brandOptional": "Marca · opcional",
+  "retakeIngredients": "Refazer foto dos ingredientes",
+  "legendContains": "Contém",
+  "legendMayContain": "Pode conter / ambíguo",
+  "sendSubmission": "Enviar cadastro",
+  "sendingSubmission": "Enviando…",
+  "submissionFailed": "Não conseguimos enviar o cadastro. Verifique sua conexão e tente de novo.",
+  "submissionRateLimited": "Você já enviou muitos cadastros hoje. Tente de novo amanhã.",
+  "submissionSeal": "Baseado no seu cadastro · em revisão",
+  "submissionThanksTitle": "Você acabou de ajudar outras famílias",
+  "submissionThanksBody": "Depois da revisão, o produto fica disponível para todos.",
+  "planSave": "economize {percent}%",
+  "@planSave": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "pricePerYear": "{price}/ano",
+  "@pricePerYear": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "pricePerMonth": "{price}/mês",
+  "@pricePerMonth": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "freeTrialDays": "{days} dias grátis",
+  "@freeTrialDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "startFreeTrialDays": "Começar {days} dias grátis",
+  "@startFreeTrialDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "subscribe": "Assinar",
+  "periodYear": "ano",
+  "periodMonth": "mês",
+  "storeSubscriptionsIos": "Ajustes › seu nome › Assinaturas",
+  "storeSubscriptionsAndroid": "Play Store › Pagamentos e assinaturas › Assinaturas",
+  "cancellationTrial": "Hoje você paga R$ 0. Depois de {days} dias, {price} por {period}, com renovação automática. Cancele quando quiser em {store}, até 24 h antes do fim do teste, e nada será cobrado.",
+  "@cancellationTrial": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      },
+      "period": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "cancellationNoTrial": "{price} por {period}, com renovação automática. Cancele quando quiser em {store}, até 24 h antes da renovação.",
+  "@cancellationNoTrial": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "period": {
+        "type": "String"
+      },
+      "store": {
+        "type": "String"
+      }
+    }
+  },
+  "plansUnavailable": "Não conseguimos carregar os planos agora.",
+  "purchaseFailed": "A compra não foi concluída. Nada foi cobrado. Tente de novo.",
+  "familyActive": "Plano Família ativo! Agora você pode adicionar todo o grupo.",
+  "familyActivating": "Assinatura confirmada. A liberação pode levar alguns instantes.",
+  "nothingToRestore": "Nenhuma assinatura Família encontrada nesta conta da loja.",
+  "privacyPolicy": "Privacidade",
+  "termsOfUse": "Termos de uso"
+}

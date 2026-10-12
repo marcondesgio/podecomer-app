@@ -1,0 +1,11 @@
+# dart run flutter_launcher_icons
+# Ícone PROVISÓRIO (tool/generate_brand_assets.dart): troque pelo logo oficial.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/branding/icon.png
+  min_sdk_android: 24
+  adaptive_icon_background: "#5B2A7A"
+  adaptive_icon_foreground: assets/branding/icon_foreground.png
+  # A App Store recusa ícone com transparência.
+  remove_alpha_ios: true
